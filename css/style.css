@@ -96,6 +96,7 @@ Helper CSS
 
 .section-title h2 {
 	font-size: 60px;
+	color: rgb(4, 134, 	178);
 }
 
 .set-bg {
@@ -119,7 +120,7 @@ Helper CSS
 .text-white span,
 .text-white li,
 .text-white a {
-	color: #fff;
+	color: rgb(4,134,178);
 }
 
 /*---------------------
@@ -223,7 +224,7 @@ Header section
 .header-section {
 	padding-left: 55px;
 	padding-right: 72px;
-	background: #08192d;
+	
 }
 
 .site-logo {
@@ -277,7 +278,7 @@ Header section
 .main-menu li a {
 	display: block;
 	font-size: 16px;
-	color: #ffffff;
+	color: rgb(4, 134, 	178);;
 	padding: 44px 10px;
 	margin-left: 60px;
 }
@@ -333,6 +334,17 @@ Header section
 	display: none;
 }
 
+.logo {
+	width: 200px;
+}
+
+.logorodape {
+	width: 300px;
+}
+
+.imgdim {
+	width: auto;
+}
 /*------------------
 Hero section
  ---------------------*/
@@ -341,8 +353,13 @@ Hero section
 	overflow: hidden;
 }
 
+.hs-principal {
+	background-image: url(img/pib.jpg);
+	background-repeat:no-repeat ;
+}
+
 .hs-item {
-	height: 724px;
+	height: 800px;
 	padding-bottom: 90px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -350,11 +367,10 @@ Hero section
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background: #0a183d;
 }
 
 .hs-item h2 {
-	color: #fff;
+	color:rgb(4, 134, 	178);
 	font-size: 70px;
 	margin-bottom: 25px;
 	line-height: 0.9;
@@ -364,11 +380,11 @@ Hero section
 }
 
 .hs-item h2 span {
-	color: #fc0254;
+	color:rgb(241, 89, 	64)	;
 }
 
 .hs-item p {
-	color: #ffffff;
+	color:rgb(4, 134, 	178);
 	opacity: 0.6;
 	margin-bottom: 50px;
 	position: relative;
@@ -462,6 +478,7 @@ Intro section
 .intro-section p {
 	margin-bottom: 35px;
 	padding-top: 10px;
+	color: rgb(4,134,178);
 }
 
 /* ----------------
@@ -569,11 +586,13 @@ Premium section
 
 .premium-section p {
 	margin-bottom: 50px;
+	
 }
 
 .premium-item {
 	text-align: center;
 	padding-top: 35px;
+	
 }
 
 .premium-item img {
@@ -596,7 +615,7 @@ Responsive
  -------------------*/
 
 .footer-section {
-	background: #0a183d;
+	background: rgb(4,134,178);
 	padding: 100px 0 85px;
 }
 
@@ -624,15 +643,14 @@ Responsive
 
 .copyright {
 	font-size: 11px;
-	text-transform: uppercase;
 	font-weight: 500;
-	color: #505565;
+	color: whitesmoke;
 	padding: 10px 0 25px;
 }
 
 .social-links a {
 	display: inline-block;
-	color: #6a7080;
+	color: whitesmoke;
 	font-size: 18px;
 	margin-right: 35px;
 }
